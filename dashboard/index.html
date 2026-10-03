@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Ventanas de Mantenimiento — Guía visual del SEN central</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Optimización de ventanas de mantenimiento de transmisión coordinada con el CEN, con pronósticos ML de falla. Caso de estudio: SEN central chileno (Quillota–Temuco).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%231E2A44'/%3E%3Ctext x='50' y='74' font-size='64' text-anchor='middle' fill='%23F5EEDC'%3E%E2%8C%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<!-- ======================= BANNER ======================= -->
+<header class="banner" id="top">
+  <div class="banner-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">⌁</span>
+      <span class="brand-name">Ventanas de<br>Mantenimiento</span>
+    </a>
+    <nav class="banner-nav" aria-label="Secciones">
+      <a href="#red">01 · Red</a>
+      <a href="#calendario">02 · Calendario</a>
+      <a href="#costos">03 · Costos</a>
+      <a href="#pareto">04 · Pareto</a>
+      <a href="#ml">05 · Modelo</a>
+      <a href="#riesgo">06 · Riesgo</a>
+    </nav>
+    <span class="banner-ed">SEN central · ed. 2026</span>
+  </div>
+</header>
+
+<!-- ======================= HERO ======================= -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="kicker">§ 00 — Una guía de campo operativa</p>
+      <h1>La semana<br><em>correcta.</em></h1>
+      <p class="lede">
+        Cada mantenimiento de transmisión cambia la topología del sistema y puede
+        congestionar la red. Este trabajo programa <strong>ventanas de
+        mantenimiento</strong> que le cuesten menos al sistema: optimización MILP
+        coordinada con el CEN, robustez Bertsimas-Sim y pronósticos ML de falla
+        como insumo.
+      </p>
+      <p class="note">
+        Caso de estudio: reducción representativa del SEN central chileno
+        (Quillota–Temuco) — 15 subestaciones, 17 líneas de 220&nbsp;kV,
+        12 semanas de horizonte operativo.
+      </p>
+      <div class="hero-strip" id="hero-strip">
+        <div class="cell"><span class="cell-k">Semana</span><span class="cell-v" id="hs-sem">—</span></div>
+        <div class="cell"><span class="cell-k">Demanda media</span><span class="cell-v" id="hs-dem">—</span></div>
+        <div class="cell"><span class="cell-k">Líneas fuera</span><span class="cell-v" id="hs-fuera">—</span></div>
+        <div class="cell"><span class="cell-k">Congestión incr.</span><span class="cell-v" id="hs-inc">—</span></div>
+      </div>
+    </div>
+    <figure class="hero-fig">
+      <div id="hero-plot"></div>
+      <figcaption>Demanda semanal del horizonte · bandas naranjas = ventanas del plan MILP · el barrido recorre las 12 semanas.</figcaption>
+    </figure>
+  </div>
+  <div class="wrap">
+    <div class="readouts" id="hero-readouts"></div>
+  </div>
+</section>
+
+<main>
+
+<!-- ======================= 01 RED ======================= -->
+<section id="red">
+  <div class="wrap">
+    <p class="kicker">§ 01 / LA RED</p>
+    <h2>El sistema, <em>dibujado.</em></h2>
+    <p class="prose">
+      Topología del caso de estudio en su geografía real (Quillota a Temuco).
+      El trazo discontinuo marca las <strong>8 líneas con mantenimiento en el
+      horizonte</strong>; el color indica propietario.
+      <span class="hint">↳ Pase el cursor por una línea o subestación · clic en una línea para fijarla en el panel.</span>
+    </p>
+    <div class="duo">
+      <div id="red-plot" class="duo-main"></div>
+      <aside class="duo-side">
+        <h4>Elemento</h4>
+        <div id="red-detail" class="detail-card">
+          <p class="detail-empty">Sin selección.<br>Haga clic en una línea.</p>
+        </div>
+        <div id="red-legend" class="legend"></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 02 CALENDARIO ======================= -->
+<section id="calendario">
+  <div class="wrap">
+    <p class="kicker">§ 02 / EL CALENDARIO</p>
+    <h2>Una ventana <em>por línea.</em></h2>
+    <p class="prose">
+      Plan óptimo MILP: cada línea sale una semana; a lo más
+      <strong>2 líneas simultáneas</strong> (criterio N-1 operativa del CEN).
+      Abajo, el costo incremental de congestión por semana y las líneas fuera
+      de servicio.
+      <span class="hint">↳ Recorra las columnas de semana con el cursor: el Gantt y los costos se iluminan juntos.</span>
+    </p>
+    <div id="cal-plot"></div>
+  </div>
+</section>
+
+<!-- ======================= 03 COSTOS ======================= -->
+<section id="costos">
+  <div class="wrap">
+    <p class="kicker">§ 03 / LOS COSTOS</p>
+    <h2>El precio de <em>cada ventana.</em></h2>
+    <p class="prose">
+      Matriz de costo incremental de congestión por línea y semana (DC power
+      flow, proxy con 4 horas representativas/semana). El contorno grueso marca
+      la ventana que eligió el MILP.
+      <span class="hint">↳ Observe L014 (Itahue–Pehuenche): la única línea cuyo retiro congestiona el sistema — el optimizador la envía al valle de demanda.</span>
+    </p>
+    <div id="costos-plot"></div>
+    <p class="caption">
+      Índice proxy: (cargabilidad − 90%) · MVA · CMg marginal, en unidades no
+      facturables. Semanas 5–9 concentran el valle térmico del horizonte
+      (verano). Fuente: <code>costos_ventana.json</code>.
+    </p>
+  </div>
+</section>
+
+<!-- ======================= 04 PARETO ======================= -->
+<section id="pareto">
+  <div class="wrap">
+    <p class="kicker">§ 04 / EL FRENTE</p>
+    <h2>Tres objetivos, <em>un compromiso.</em></h2>
+    <p class="prose">
+      Soluciones no dominadas del NSGA-II en el espacio
+      <strong>costo incremental</strong> vs <strong>CVaR(95%)</strong> de horas
+      forzadas; el tamaño y color codifican el SAIDI zonal proxy (verde =
+      menor impacto). La estrella marca el plan MILP determinista.
+      <span class="hint">↳ Haga clic en un punto: su calendario se despliega abajo.</span>
+    </p>
+    <div class="duo">
+      <div id="pareto-plot" class="duo-main"></div>
+      <aside class="duo-side">
+        <h4>Plan seleccionado</h4>
+        <div id="pareto-readouts" class="readouts readouts-mini"></div>
+        <div id="pareto-gantt"></div>
+      </aside>
+    </div>
+    <p class="caption">
+      Una solución es dominada si otra es estrictamente mejor en algún objetivo
+      y no peor en ninguno. Elegir un punto del frente es una negociación con
+      el CEN, no un cálculo. Fuente: <code>pareto.json</code>.
+    </p>
+  </div>
+</section>
+
+<!-- ======================= 05 ML ======================= -->
+<section id="ml">
+  <div class="wrap">
+    <p class="kicker">§ 05 / EL PRONÓSTICO</p>
+    <h2>Aprender la <em>falla.</em></h2>
+    <p class="prose">
+      Random Forest (300 árboles) sobre features técnicas y climáticas por
+      línea, entrenado con 5 años de indisponibilidad forzada. A la izquierda,
+      qué variables mandan; a la derecha, lo observado contra lo predicho.
+      <span class="hint">↳ Pase el cursor por barras y puntos.</span>
+    </p>
+    <div class="duo">
+      <div id="ml-importancia" class="duo-half"></div>
+      <div id="ml-scatter" class="duo-half"></div>
+    </div>
+    <div id="ml-chips" class="chips"></div>
+    <p class="caption">
+      Predicción <strong>in-sample</strong> con n = 17 líneas y ~7 eventos
+      históricos: con datos sintéticos esto valida el pipeline, no la señal
+      predictiva. Con Open Data del CEN el mismo código entrena en serio.
+    </p>
+  </div>
+</section>
+
+<!-- ======================= 06 RIESGO ======================= -->
+<section id="riesgo">
+  <div class="wrap">
+    <p class="kicker">§ 06 / EL RIESGO</p>
+    <h2>La promesa <em>Γ–cuantil.</em></h2>
+    <p class="prose">
+      Arriba: 200 escenarios Monte Carlo de indisponibilidad forzada
+      (proceso de Poisson con las tasas λ del modelo ML). Arrastre el nivel
+      <strong>α</strong> y observe cómo se mueven el VaR y el CVaR.
+      Abajo: el contrato de robustez de Bertsimas-Sim — ¿cuántas extensiones
+      de ventana tolera el plan antes de violar la simultaneidad N-1?
+    </p>
+    <div class="duo duo-stack">
+      <div class="risk-top">
+        <div id="riesgo-plot" class="duo-main"></div>
+        <aside class="duo-side">
+          <h4>Cuantiles de cola</h4>
+          <div id="riesgo-readouts" class="readouts readouts-mini"></div>
+          <label class="slider-label">
+            <span>α — nivel de confianza</span>
+            <span class="slider-val" id="alpha-val">0.950</span>
+          </label>
+          <input type="range" id="alpha-slider" min="0.80" max="0.99" step="0.005" value="0.95" class="slider">
+          <p class="side-note">VaR(α): valor en riesgo. CVaR(α): esperanza condicional de la cola — lo que se sufre en el 1−α peor de los escenarios.</p>
+        </aside>
+      </div>
+      <div class="risk-bottom">
+        <div id="gamma-plot" class="duo-main"></div>
+        <aside class="duo-side">
+          <h4>Contrato Bertsimas-Sim</h4>
+          <div id="gamma-readouts" class="readouts readouts-mini"></div>
+          <label class="slider-label">
+            <span>Γ — extensiones simultáneas</span>
+            <span class="slider-val" id="gamma-val">2</span>
+          </label>
+          <input type="range" id="gamma-slider" min="0" max="4" step="1" value="2" class="slider">
+          <p class="side-note">Cada ventana puede extenderse 1 semana. ¿Soporta el plan que Γ líneas se pasen de plazo a la vez, sin superar 2 líneas fuera?</p>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 07 SAIDI ======================= -->
+<section id="saidi">
+  <div class="wrap">
+    <p class="kicker">§ 07 / LA CALIDAD</p>
+    <h2>Quién paga <em>la espera.</em></h2>
+    <p class="prose">
+      SAIDI zonal proxy del plan MILP: indisponibilidad de las líneas de la
+      zona normalizada por su demanda. El sur del tramo (Araucanía) es el más
+      expuesto: pocas alternativas topológicas.
+    </p>
+    <div id="saidi-plot"></div>
+    <p class="caption">
+      Índice proxy en semanas·línea/MW — no son las horas/cliente del Decreto
+      4/2018 (requiere mapear a clientes reales de cada distribuidora).
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="f-col f-brand">
+      <span class="brand-mark" aria-hidden="true">⌁</span>
+      <strong>Ventanas de Mantenimiento</strong>
+      <p>Programación robusta de mantenimientos de transmisión para el SEN chileno — dibujada desde el flujo DC, el cuantil de cola y la pendiente de la demanda.</p>
+    </div>
+    <div class="f-col">
+      <h5>Método</h5>
+      <ul>
+        <li><a href="#red">Topología y flujo DC</a></li>
+        <li><a href="#calendario">MILP (PuLP/CBC)</a></li>
+        <li><a href="#pareto">NSGA-II tri-objetivo</a></li>
+        <li><a href="#ml">Random Forest de falla</a></li>
+        <li><a href="#riesgo">SAA · Bertsimas-Sim</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5>Marco regulatorio</h5>
+      <ul class="f-plain">
+        <li>Ley 20.936 (2016) — coordinación CEN</li>
+        <li>Decreto 51/2021 — coordinación y mantenimiento</li>
+        <li>NTSyCS Distribución (D. 4/2018) — SAIDI/SAIFI</li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5>Edición</h5>
+      <ul class="f-plain">
+        <li>v2.0 · octubre 2026</li>
+        <li>Datos: sintéticos calibrados al SEN</li>
+        <li>Gráficos: D3 v7 · Tipos: Space Grotesk &amp; Newsreader</li>
+        <li>Código: <code>src/pipeline.py</code></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>Miguel Ortiz Coilla · 2026</span>
+    <span>Continuamente indisponible, óptimamente</span>
+  </div>
+</footer>
+
+<div class="load-note" id="load-note">cargando datos…</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>

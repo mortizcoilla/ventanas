@@ -1,0 +1,30 @@
+{
+  "elementos_objetivo": [
+    "L001",
+    "L003",
+    "L007",
+    "L010",
+    "L017",
+    "L014",
+    "L005",
+    "L004"
+  ],
+  "n_lineas_total": 17,
+  "n_buses": 15,
+  "n_generadores": 10,
+  "horizonte_semanas": 12,
+  "fecha_origen": "2026-01-05",
+  "costo_base_proxy": 106399.99999999994,
+  "costo_milp_incremental": 3444.00000000003,
+  "max_concurrentes": 2,
+  "metodologia": [
+    "DC Power Flow con despacho economico (proxy de congestiones, 4 h representativas/sem).",
+    "MILP determinista (PuLP/CBC) para programacion de mantenimientos.",
+    "Bertsimas-Sim robusto para duraciones inciertas.",
+    "Sample Average Approximation (SAA) para escenarios de falla.",
+    "NSGA-II multi-objetivo (costo vs CVaR vs SAIDI).",
+    "Random Forest para probabilidad de falla forzada."
+  ],
+  "version": "2.0",
+  "fecha_ejecucion": "2026-10-02T16:46:17.777937"
+}

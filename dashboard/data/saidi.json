@@ -1,0 +1,38 @@
+[
+  {
+    "zona": "Maule",
+    "demanda_mw": 110,
+    "horas_indisp": 1.0,
+    "saidi_horas": 0.009091
+  },
+  {
+    "zona": "RM",
+    "demanda_mw": 534,
+    "horas_indisp": 3.0,
+    "saidi_horas": 0.005618
+  },
+  {
+    "zona": "Biobio",
+    "demanda_mw": 216,
+    "horas_indisp": 1.0,
+    "saidi_horas": 0.00463
+  },
+  {
+    "zona": "Araucania",
+    "demanda_mw": 52,
+    "horas_indisp": 0.0,
+    "saidi_horas": 0.0
+  },
+  {
+    "zona": "OHiggins",
+    "demanda_mw": 81,
+    "horas_indisp": 0.0,
+    "saidi_horas": 0.0
+  },
+  {
+    "zona": "Valparaiso",
+    "demanda_mw": 105,
+    "horas_indisp": 0.0,
+    "saidi_horas": 0.0
+  }
+]

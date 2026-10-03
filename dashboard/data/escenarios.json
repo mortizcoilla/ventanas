@@ -1,0 +1,1052 @@
+{
+  "escenarios": [
+    {
+      "escenario": 0,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 1,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 2,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 3,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 4,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 5,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 6,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 7,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 8,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 9,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 10,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 11,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 12,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 13,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 14,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 15,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 16,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 17,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 18,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 19,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 20,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 21,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 22,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 23,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 24,
+      "fallas": 3,
+      "horas_forzadas": 24.0
+    },
+    {
+      "escenario": 25,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 26,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 27,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 28,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 29,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 30,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 31,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 32,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 33,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 34,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 35,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 36,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 37,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 38,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 39,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 40,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 41,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 42,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 43,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 44,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 45,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 46,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 47,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 48,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 49,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 50,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 51,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 52,
+      "fallas": 3,
+      "horas_forzadas": 24.0
+    },
+    {
+      "escenario": 53,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 54,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 55,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 56,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 57,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 58,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 59,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 60,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 61,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 62,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 63,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 64,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 65,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 66,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 67,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 68,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 69,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 70,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 71,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 72,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 73,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 74,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 75,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 76,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 77,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 78,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 79,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 80,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 81,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 82,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 83,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 84,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 85,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 86,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 87,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 88,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 89,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 90,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 91,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 92,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 93,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 94,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 95,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 96,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 97,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 98,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 99,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 100,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 101,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 102,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 103,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 104,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 105,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 106,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 107,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 108,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 109,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 110,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 111,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 112,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 113,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 114,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 115,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 116,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 117,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 118,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 119,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 120,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 121,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 122,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 123,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 124,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 125,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 126,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 127,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 128,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 129,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 130,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 131,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 132,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 133,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 134,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 135,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 136,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 137,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 138,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 139,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 140,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 141,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 142,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 143,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 144,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 145,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 146,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 147,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 148,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 149,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 150,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 151,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 152,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 153,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 154,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 155,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 156,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 157,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 158,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 159,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 160,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 161,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 162,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 163,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 164,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 165,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 166,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 167,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 168,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 169,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 170,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 171,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 172,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 173,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 174,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 175,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 176,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 177,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 178,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 179,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 180,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 181,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 182,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 183,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 184,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 185,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 186,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 187,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 188,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 189,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 190,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 191,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 192,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 193,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 194,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 195,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 196,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    },
+    {
+      "escenario": 197,
+      "fallas": 0,
+      "horas_forzadas": 0.0
+    },
+    {
+      "escenario": 198,
+      "fallas": 2,
+      "horas_forzadas": 16.0
+    },
+    {
+      "escenario": 199,
+      "fallas": 1,
+      "horas_forzadas": 8.0
+    }
+  ],
+  "metricas": {
+    "VaR": 16.0,
+    "CVaR": 16.941176470588236,
+    "media": 3.08,
+    "std": 5.347298383295999
+  },
+  "metricas_por_alpha": {
+    "90": {
+      "VaR": 8.0,
+      "CVaR": 10.620689655172415,
+      "media": 3.08,
+      "std": 5.347298383295999
+    },
+    "95": {
+      "VaR": 16.0,
+      "CVaR": 16.941176470588236,
+      "media": 3.08,
+      "std": 5.347298383295999
+    },
+    "99": {
+      "VaR": 16.079999999999927,
+      "CVaR": 24.0,
+      "media": 3.08,
+      "std": 5.347298383295999
+    }
+  },
+  "robustez": {
+    "robusto": false,
+    "gamma": 2,
+    "gamma_max": 0,
+    "semana_critica": 11,
+    "motivo": "semana 11 no tolera Gamma=2 (gamma_max=0)",
+    "slack_por_sem": {
+      "1": 0,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 1,
+      "9": 2,
+      "10": 0,
+      "11": 0,
+      "12": 1,
+      "13": 2
+    }
+  }
+}

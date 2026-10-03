@@ -1,0 +1,134 @@
+{
+  "1": {
+    "cargabilidad_max": 1.0,
+    "linea_cargada": "L005",
+    "congestion_usd": 15199.999999999996,
+    "congestion_base_usd": 15199.99999999998,
+    "incremental_usd": 1.6370904631912708e-11,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "L001,L003",
+    "demanda_media_mw": 923.8909940476191,
+    "generacion_total_mwh": 3828.413999999999
+  },
+  "2": {
+    "cargabilidad_max": 1.0000000000000002,
+    "linea_cargada": "L005",
+    "congestion_usd": 15200.000000000005,
+    "congestion_base_usd": 15200.000000000005,
+    "incremental_usd": 0.0,
+    "congestion_horas": 1.0,
+    "lineas_fuera": "-",
+    "demanda_media_mw": 924.4829464285715,
+    "generacion_total_mwh": 3834.275999999998
+  },
+  "3": {
+    "cargabilidad_max": 1.0000000000000002,
+    "linea_cargada": "L005",
+    "congestion_usd": 15200.000000000005,
+    "congestion_base_usd": 15200.000000000005,
+    "incremental_usd": 0.0,
+    "congestion_horas": 1.0,
+    "lineas_fuera": "-",
+    "demanda_media_mw": 923.8074345238095,
+    "generacion_total_mwh": 3819.244
+  },
+  "4": {
+    "cargabilidad_max": 0.9999999999999999,
+    "linea_cargada": "L005",
+    "congestion_usd": 15199.99999999998,
+    "congestion_base_usd": 15199.99999999998,
+    "incremental_usd": 0.0,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "-",
+    "demanda_media_mw": 922.7197976190477,
+    "generacion_total_mwh": 3827.5109999999977
+  },
+  "5": {
+    "cargabilidad_max": 0.8454789473684214,
+    "linea_cargada": "",
+    "congestion_usd": 0.0,
+    "congestion_base_usd": 0.0,
+    "incremental_usd": 0.0,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "-",
+    "demanda_media_mw": 720.7323333333334,
+    "generacion_total_mwh": 2987.2569999999982
+  },
+  "6": {
+    "cargabilidad_max": 0.8305500000000002,
+    "linea_cargada": "",
+    "congestion_usd": 0.0,
+    "congestion_base_usd": 0.0,
+    "incremental_usd": 0.0,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "-",
+    "demanda_media_mw": 721.26125,
+    "generacion_total_mwh": 2988.592999999999
+  },
+  "7": {
+    "cargabilidad_max": 0.8388578947368421,
+    "linea_cargada": "",
+    "congestion_usd": 0.0,
+    "congestion_base_usd": 0.0,
+    "incremental_usd": 0.0,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "-",
+    "demanda_media_mw": 721.0037202380952,
+    "generacion_total_mwh": 2991.405999999998
+  },
+  "8": {
+    "cargabilidad_max": 1.0000000000000004,
+    "linea_cargada": "L016",
+    "congestion_usd": 3444.000000000003,
+    "congestion_base_usd": 0.0,
+    "incremental_usd": 3444.000000000003,
+    "congestion_horas": 1.0,
+    "lineas_fuera": "L014",
+    "demanda_media_mw": 720.2670357142857,
+    "generacion_total_mwh": 2980.965999999999
+  },
+  "9": {
+    "cargabilidad_max": 0.8203342105263163,
+    "linea_cargada": "",
+    "congestion_usd": 0.0,
+    "congestion_base_usd": 0.0,
+    "incremental_usd": 0.0,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "-",
+    "demanda_media_mw": 720.5900833333334,
+    "generacion_total_mwh": 2977.467999999999
+  },
+  "10": {
+    "cargabilidad_max": 0.0,
+    "linea_cargada": "",
+    "congestion_usd": 0.0,
+    "congestion_base_usd": 15199.99999999998,
+    "incremental_usd": -15199.99999999998,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "L007,L010",
+    "demanda_media_mw": 924.8873392857143,
+    "generacion_total_mwh": 0.0
+  },
+  "11": {
+    "cargabilidad_max": 0.5760437500000001,
+    "linea_cargada": "",
+    "congestion_usd": 0.0,
+    "congestion_base_usd": 15199.999999999996,
+    "incremental_usd": -15199.999999999996,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "L017,L005",
+    "demanda_media_mw": 923.5582678571428,
+    "generacion_total_mwh": 3824.0030000000006
+  },
+  "12": {
+    "cargabilidad_max": 1.0,
+    "linea_cargada": "L005",
+    "congestion_usd": 15199.999999999989,
+    "congestion_base_usd": 15199.999999999989,
+    "incremental_usd": 0.0,
+    "congestion_horas": 0.0,
+    "lineas_fuera": "L004",
+    "demanda_media_mw": 923.2019404761905,
+    "generacion_total_mwh": 3827.556999999998
+  }
+}

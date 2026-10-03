@@ -1,0 +1,8 @@
+elemento,semana,anio,fecha,duracion_h,costo_usd,propietario,causa
+L013,21,2024,2024-05-24,2,58727.03,Transelec,Falla mecanica
+L014,48,2025,2025-11-28,48,2601603.9,Enel,Falla electrica
+L001,25,2026,2026-06-21,2,59592.99,Transelec,Falla electrica
+L008,42,2026,2026-10-12,4,204196.05,Transelec,Desconocida
+L017,2,2027,2027-01-09,4,119553.29,Transelec,Desconocida
+L003,5,2027,2027-01-25,2,103619.57,Transelec,Falla electrica
+L015,5,2028,2028-01-30,2,71377.75,Engie,Falla mecanica

@@ -1,0 +1,544 @@
+{
+  "buses": [
+    {
+      "id": "S001",
+      "nombre": "Quillota 220",
+      "zona": "Valparaiso",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -32.88,
+      "lon": -71.2
+    },
+    {
+      "id": "S002",
+      "nombre": "Polpaico 220",
+      "zona": "RM",
+      "tipo": "transformacion",
+      "kv": 220,
+      "lat": -33.12,
+      "lon": -70.74
+    },
+    {
+      "id": "S003",
+      "nombre": "Lo Aguirre 220",
+      "zona": "RM",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -33.38,
+      "lon": -70.78
+    },
+    {
+      "id": "S004",
+      "nombre": "Alto Jahuel 220",
+      "zona": "RM",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -33.67,
+      "lon": -70.8
+    },
+    {
+      "id": "S005",
+      "nombre": "Ancoa 220",
+      "zona": "Maule",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -35.42,
+      "lon": -71.6
+    },
+    {
+      "id": "S006",
+      "nombre": "Itahue 220",
+      "zona": "Maule",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -35.18,
+      "lon": -71.68
+    },
+    {
+      "id": "S007",
+      "nombre": "Charrúa 220",
+      "zona": "Biobio",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -37.28,
+      "lon": -72.41
+    },
+    {
+      "id": "S008",
+      "nombre": "Pangue 220",
+      "zona": "Biobio",
+      "tipo": "generacion",
+      "kv": 220,
+      "lat": -37.38,
+      "lon": -71.93
+    },
+    {
+      "id": "S009",
+      "nombre": "Trupán 220",
+      "zona": "Biobio",
+      "tipo": "transformacion",
+      "kv": 220,
+      "lat": -37.42,
+      "lon": -72.53
+    },
+    {
+      "id": "S010",
+      "nombre": "Temuco 220",
+      "zona": "Araucania",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -38.68,
+      "lon": -72.55
+    },
+    {
+      "id": "S011",
+      "nombre": "Ciruelos 220",
+      "zona": "Biobio",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -37.07,
+      "lon": -72.42
+    },
+    {
+      "id": "S012",
+      "nombre": "Rancagua 220",
+      "zona": "OHiggins",
+      "tipo": "paso",
+      "kv": 220,
+      "lat": -34.16,
+      "lon": -70.74
+    },
+    {
+      "id": "S013",
+      "nombre": "Maitenes 220",
+      "zona": "RM",
+      "tipo": "generacion",
+      "kv": 220,
+      "lat": -34.02,
+      "lon": -70.89
+    },
+    {
+      "id": "S014",
+      "nombre": "Rapel 220",
+      "zona": "OHiggins",
+      "tipo": "generacion",
+      "kv": 220,
+      "lat": -34.29,
+      "lon": -71.34
+    },
+    {
+      "id": "S015",
+      "nombre": "Pehuenche 220",
+      "zona": "Maule",
+      "tipo": "generacion",
+      "kv": 220,
+      "lat": -35.85,
+      "lon": -71.13
+    }
+  ],
+  "lineas": [
+    {
+      "id": "L001",
+      "nombre": "Quillota-Polpaico 1",
+      "desde": "S001",
+      "hasta": "S002",
+      "kv": 220,
+      "r_pu": 0.012,
+      "x_pu": 0.085,
+      "capacidad_mva": 380,
+      "longitud_km": 132,
+      "zona": "Valparaiso-RM",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L002",
+      "nombre": "Quillota-Polpaico 2",
+      "desde": "S001",
+      "hasta": "S002",
+      "kv": 220,
+      "r_pu": 0.012,
+      "x_pu": 0.085,
+      "capacidad_mva": 380,
+      "longitud_km": 132,
+      "zona": "Valparaiso-RM",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L003",
+      "nombre": "Polpaico-Lo Aguirre",
+      "desde": "S002",
+      "hasta": "S003",
+      "kv": 220,
+      "r_pu": 0.009,
+      "x_pu": 0.064,
+      "capacidad_mva": 480,
+      "longitud_km": 95,
+      "zona": "RM",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L004",
+      "nombre": "Lo Aguirre-Alto Jahuel",
+      "desde": "S003",
+      "hasta": "S004",
+      "kv": 220,
+      "r_pu": 0.007,
+      "x_pu": 0.052,
+      "capacidad_mva": 520,
+      "longitud_km": 78,
+      "zona": "RM",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L005",
+      "nombre": "Alto Jahuel-Rancagua",
+      "desde": "S004",
+      "hasta": "S012",
+      "kv": 220,
+      "r_pu": 0.014,
+      "x_pu": 0.098,
+      "capacidad_mva": 380,
+      "longitud_km": 145,
+      "zona": "RM-OHiggins",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L006",
+      "nombre": "Alto Jahuel-Maitenes",
+      "desde": "S004",
+      "hasta": "S013",
+      "kv": 220,
+      "r_pu": 0.011,
+      "x_pu": 0.078,
+      "capacidad_mva": 320,
+      "longitud_km": 118,
+      "zona": "RM",
+      "propietario": "Engie"
+    },
+    {
+      "id": "L007",
+      "nombre": "Rancagua-Itahue",
+      "desde": "S012",
+      "hasta": "S006",
+      "kv": 220,
+      "r_pu": 0.018,
+      "x_pu": 0.124,
+      "capacidad_mva": 380,
+      "longitud_km": 178,
+      "zona": "OHiggins-Maule",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L008",
+      "nombre": "Itahue-Ancoa",
+      "desde": "S006",
+      "hasta": "S005",
+      "kv": 220,
+      "r_pu": 0.0095,
+      "x_pu": 0.068,
+      "capacidad_mva": 380,
+      "longitud_km": 102,
+      "zona": "Maule",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L009",
+      "nombre": "Ancoa-Charrúa",
+      "desde": "S005",
+      "hasta": "S007",
+      "kv": 220,
+      "r_pu": 0.014,
+      "x_pu": 0.095,
+      "capacidad_mva": 420,
+      "longitud_km": 162,
+      "zona": "Maule-Biobio",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L010",
+      "nombre": "Charrúa-Trupán",
+      "desde": "S007",
+      "hasta": "S009",
+      "kv": 220,
+      "r_pu": 0.0075,
+      "x_pu": 0.056,
+      "capacidad_mva": 520,
+      "longitud_km": 91,
+      "zona": "Biobio",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L011",
+      "nombre": "Charrúa-Pangue",
+      "desde": "S007",
+      "hasta": "S008",
+      "kv": 220,
+      "r_pu": 0.0065,
+      "x_pu": 0.048,
+      "capacidad_mva": 540,
+      "longitud_km": 84,
+      "zona": "Biobio",
+      "propietario": "Engie"
+    },
+    {
+      "id": "L012",
+      "nombre": "Trupán-Ciruelos",
+      "desde": "S009",
+      "hasta": "S011",
+      "kv": 220,
+      "r_pu": 0.0055,
+      "x_pu": 0.042,
+      "capacidad_mva": 560,
+      "longitud_km": 72,
+      "zona": "Biobio",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L013",
+      "nombre": "Ciruelos-Temuco",
+      "desde": "S011",
+      "hasta": "S010",
+      "kv": 220,
+      "r_pu": 0.0135,
+      "x_pu": 0.092,
+      "capacidad_mva": 400,
+      "longitud_km": 156,
+      "zona": "Biobio-Araucania",
+      "propietario": "Transelec"
+    },
+    {
+      "id": "L014",
+      "nombre": "Itahue-Pehuenche",
+      "desde": "S006",
+      "hasta": "S015",
+      "kv": 220,
+      "r_pu": 0.007,
+      "x_pu": 0.051,
+      "capacidad_mva": 480,
+      "longitud_km": 88,
+      "zona": "Maule",
+      "propietario": "Enel"
+    },
+    {
+      "id": "L015",
+      "nombre": "Rancagua-Rapel",
+      "desde": "S012",
+      "hasta": "S014",
+      "kv": 220,
+      "r_pu": 0.0085,
+      "x_pu": 0.062,
+      "capacidad_mva": 440,
+      "longitud_km": 96,
+      "zona": "OHiggins",
+      "propietario": "Engie"
+    },
+    {
+      "id": "L016",
+      "nombre": "Ancoa-Pehuenche",
+      "desde": "S005",
+      "hasta": "S015",
+      "kv": 220,
+      "r_pu": 0.0075,
+      "x_pu": 0.054,
+      "capacidad_mva": 420,
+      "longitud_km": 92,
+      "zona": "Maule",
+      "propietario": "Enel"
+    },
+    {
+      "id": "L017",
+      "nombre": "Polpaico-Alto Jahuel 1",
+      "desde": "S002",
+      "hasta": "S004",
+      "kv": 220,
+      "r_pu": 0.006,
+      "x_pu": 0.045,
+      "capacidad_mva": 560,
+      "longitud_km": 65,
+      "zona": "RM",
+      "propietario": "Transelec"
+    }
+  ],
+  "generadores": [
+    {
+      "id": "G01",
+      "nombre": "Maitenes U1",
+      "bus": "S013",
+      "tecnologia": "hidro",
+      "p_max_mw": 100,
+      "c_mg_usd_mwh": 18.5
+    },
+    {
+      "id": "G02",
+      "nombre": "Maitenes U2",
+      "bus": "S013",
+      "tecnologia": "hidro",
+      "p_max_mw": 100,
+      "c_mg_usd_mwh": 18.5
+    },
+    {
+      "id": "G03",
+      "nombre": "Rapel U1",
+      "bus": "S014",
+      "tecnologia": "hidro",
+      "p_max_mw": 220,
+      "c_mg_usd_mwh": 20.0
+    },
+    {
+      "id": "G04",
+      "nombre": "Pehuenche U1",
+      "bus": "S015",
+      "tecnologia": "hidro",
+      "p_max_mw": 280,
+      "c_mg_usd_mwh": 19.0
+    },
+    {
+      "id": "G05",
+      "nombre": "Pehuenche U2",
+      "bus": "S015",
+      "tecnologia": "hidro",
+      "p_max_mw": 280,
+      "c_mg_usd_mwh": 19.0
+    },
+    {
+      "id": "G06",
+      "nombre": "Pangue U1",
+      "bus": "S008",
+      "tecnologia": "termo",
+      "p_max_mw": 170,
+      "c_mg_usd_mwh": 62.0
+    },
+    {
+      "id": "G07",
+      "nombre": "Pangue U2",
+      "bus": "S008",
+      "tecnologia": "termo",
+      "p_max_mw": 170,
+      "c_mg_usd_mwh": 62.0
+    },
+    {
+      "id": "G08",
+      "nombre": "Quillota Solar 1",
+      "bus": "S001",
+      "tecnologia": "solar",
+      "p_max_mw": 150,
+      "c_mg_usd_mwh": 1.0
+    },
+    {
+      "id": "G09",
+      "nombre": "Quillota Solar 2",
+      "bus": "S001",
+      "tecnologia": "solar",
+      "p_max_mw": 150,
+      "c_mg_usd_mwh": 1.0
+    },
+    {
+      "id": "G10",
+      "nombre": "Charrúa Eolica",
+      "bus": "S007",
+      "tecnologia": "eolica",
+      "p_max_mw": 120,
+      "c_mg_usd_mwh": 0.5
+    }
+  ],
+  "cargas": [
+    {
+      "bus": "S001",
+      "zona": "Valparaiso",
+      "demanda_base_mw": 105,
+      "perfil": "mixto"
+    },
+    {
+      "bus": "S002",
+      "zona": "RM",
+      "demanda_base_mw": 198,
+      "perfil": "mixto"
+    },
+    {
+      "bus": "S003",
+      "zona": "RM",
+      "demanda_base_mw": 145,
+      "perfil": "industrial"
+    },
+    {
+      "bus": "S004",
+      "zona": "RM",
+      "demanda_base_mw": 182,
+      "perfil": "mixto"
+    },
+    {
+      "bus": "S005",
+      "zona": "Maule",
+      "demanda_base_mw": 58,
+      "perfil": "industrial"
+    },
+    {
+      "bus": "S006",
+      "zona": "Maule",
+      "demanda_base_mw": 48,
+      "perfil": "industrial"
+    },
+    {
+      "bus": "S007",
+      "zona": "Biobio",
+      "demanda_base_mw": 125,
+      "perfil": "industrial"
+    },
+    {
+      "bus": "S008",
+      "zona": "Biobio",
+      "demanda_base_mw": 14,
+      "perfil": "residencial"
+    },
+    {
+      "bus": "S009",
+      "zona": "Biobio",
+      "demanda_base_mw": 43,
+      "perfil": "industrial"
+    },
+    {
+      "bus": "S010",
+      "zona": "Araucania",
+      "demanda_base_mw": 52,
+      "perfil": "residencial"
+    },
+    {
+      "bus": "S011",
+      "zona": "Biobio",
+      "demanda_base_mw": 34,
+      "perfil": "industrial"
+    },
+    {
+      "bus": "S012",
+      "zona": "OHiggins",
+      "demanda_base_mw": 76,
+      "perfil": "mixto"
+    },
+    {
+      "bus": "S013",
+      "zona": "RM",
+      "demanda_base_mw": 9,
+      "perfil": "residencial"
+    },
+    {
+      "bus": "S014",
+      "zona": "OHiggins",
+      "demanda_base_mw": 5,
+      "perfil": "residencial"
+    },
+    {
+      "bus": "S015",
+      "zona": "Maule",
+      "demanda_base_mw": 4,
+      "perfil": "residencial"
+    }
+  ],
+  "base_mva": 100,
+  "metadata": {
+    "fuente": "sintetico calibrado al SEN central Chile",
+    "kv_dominante": 220,
+    "fecha_origen": "2026-01-01",
+    "sustitucion_datos_reales": "http://www.coordinador.cl (Open Data)",
+    "semilla": 20260902
+  }
+}

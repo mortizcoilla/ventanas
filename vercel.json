@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "echo 'static site - no build step'",
+  "outputDirectory": "dashboard",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/(dashboard\\.css|dashboard\\.js)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, must-revalidate" }
+      ]
+    }
+  ]
+}

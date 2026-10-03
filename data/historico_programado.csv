@@ -1,0 +1,40 @@
+elemento,semana,anio,fecha,duracion_h,tipo,costo_usd,propietario
+L005,3,2024,2024-01-15,12,Preventivo,119924.27,Transelec
+L010,8,2024,2024-02-19,4,Inspeccion,33342.22,Transelec
+L012,9,2024,2024-02-26,4,Inspeccion,41809.86,Transelec
+L003,17,2024,2024-04-22,12,Preventivo,107699.02,Transelec
+L004,18,2024,2024-04-29,8,Preventivo,83440.44,Transelec
+L013,21,2024,2024-05-20,24,Mayor programado,175681.0,Transelec
+L001,25,2024,2024-06-17,24,Mayor programado,162978.81,Transelec
+L016,32,2024,2024-08-05,8,Preventivo,79270.98,Enel
+L017,35,2024,2024-08-26,16,Preventivo,109850.62,Transelec
+L007,36,2024,2024-09-02,8,Preventivo,53082.1,Transelec
+L007,37,2024,2024-09-09,8,Preventivo,54900.5,Transelec
+L009,40,2024,2024-09-30,16,Preventivo,132501.82,Transelec
+L005,46,2024,2024-11-11,16,Preventivo,177362.82,Transelec
+L014,52,2024,2024-12-23,12,Preventivo,115417.22,Enel
+L014,22,2025,2025-05-26,4,Inspeccion,25619.37,Enel
+L010,36,2025,2025-09-01,8,Preventivo,58779.94,Transelec
+L002,39,2025,2025-09-22,36,Mayor programado,217282.54,Transelec
+L017,39,2025,2025-09-22,4,Inspeccion,42133.98,Transelec
+L010,41,2025,2025-10-06,36,Mayor programado,245144.88,Transelec
+L004,46,2025,2025-11-10,16,Preventivo,91070.93,Transelec
+L003,48,2025,2025-11-24,4,Inspeccion,38942.48,Transelec
+L014,34,2026,2026-08-17,16,Preventivo,167929.75,Enel
+L006,37,2026,2026-09-07,8,Preventivo,80278.81,Engie
+L008,40,2026,2026-09-28,24,Mayor programado,138914.98,Transelec
+L007,44,2026,2026-10-26,16,Preventivo,131565.77,Transelec
+L012,45,2026,2026-11-02,4,Inspeccion,40037.25,Transelec
+L001,3,2027,2027-01-11,8,Preventivo,76639.35,Transelec
+L017,5,2027,2027-01-25,24,Mayor programado,208480.99,Transelec
+L005,11,2027,2027-03-08,48,Cambio equipamiento,377686.87,Transelec
+L017,14,2027,2027-03-29,8,Preventivo,63224.16,Transelec
+L007,49,2027,2027-11-29,4,Inspeccion,36856.05,Transelec
+L001,51,2027,2027-12-13,36,Mayor programado,389277.91,Transelec
+L004,52,2027,2027-12-20,12,Preventivo,117092.73,Transelec
+L003,7,2028,2028-02-07,8,Preventivo,86262.29,Transelec
+L011,15,2028,2028-04-03,16,Preventivo,111554.06,Engie
+L003,23,2028,2028-05-29,8,Preventivo,77148.18,Transelec
+L001,39,2028,2028-09-18,8,Preventivo,45912.77,Transelec
+L009,50,2028,2028-12-04,48,Cambio equipamiento,447698.87,Transelec
+L010,52,2028,2028-12-18,24,Mayor programado,265591.08,Transelec

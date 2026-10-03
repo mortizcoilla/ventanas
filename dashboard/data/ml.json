@@ -1,0 +1,143 @@
+{
+  "importancias": [
+    {
+      "feature": "viento_promedio_ms",
+      "importancia": 0.3399688413305705
+    },
+    {
+      "feature": "temperatura_media_c",
+      "importancia": 0.24230093982155193
+    },
+    {
+      "feature": "longitud_km",
+      "importancia": 0.13450464887478775
+    },
+    {
+      "feature": "edad_anios",
+      "importancia": 0.10517744329250471
+    },
+    {
+      "feature": "capacidad_mva",
+      "importancia": 0.07323645888776659
+    },
+    {
+      "feature": "uso_intensivo",
+      "importancia": 0.0704572385470203
+    },
+    {
+      "feature": "capa_uso",
+      "importancia": 0.02663796052932959
+    },
+    {
+      "feature": "salinidad_alta",
+      "importancia": 0.007716468716468712
+    }
+  ],
+  "predicciones": [
+    {
+      "elemento": "L001",
+      "lambda_sem": 0.0029543589743589666,
+      "lambda_hist": 0.0038461538461538464,
+      "en_plan": true
+    },
+    {
+      "elemento": "L002",
+      "lambda_sem": 0.0017589743589743567,
+      "lambda_hist": 0.001,
+      "en_plan": false
+    },
+    {
+      "elemento": "L003",
+      "lambda_sem": 0.003106153846153838,
+      "lambda_hist": 0.0038461538461538464,
+      "en_plan": true
+    },
+    {
+      "elemento": "L004",
+      "lambda_sem": 0.0015123076923076913,
+      "lambda_hist": 0.001,
+      "en_plan": true
+    },
+    {
+      "elemento": "L005",
+      "lambda_sem": 0.001464871794871794,
+      "lambda_hist": 0.001,
+      "en_plan": true
+    },
+    {
+      "elemento": "L006",
+      "lambda_sem": 0.0016925641025641006,
+      "lambda_hist": 0.001,
+      "en_plan": false
+    },
+    {
+      "elemento": "L007",
+      "lambda_sem": 0.0016830769230769217,
+      "lambda_hist": 0.001,
+      "en_plan": true
+    },
+    {
+      "elemento": "L008",
+      "lambda_sem": 0.0035805128205128097,
+      "lambda_hist": 0.0038461538461538464,
+      "en_plan": false
+    },
+    {
+      "elemento": "L009",
+      "lambda_sem": 0.0014458974358974351,
+      "lambda_hist": 0.001,
+      "en_plan": false
+    },
+    {
+      "elemento": "L010",
+      "lambda_sem": 0.001379487179487179,
+      "lambda_hist": 0.001,
+      "en_plan": true
+    },
+    {
+      "elemento": "L011",
+      "lambda_sem": 0.0015597435897435888,
+      "lambda_hist": 0.001,
+      "en_plan": false
+    },
+    {
+      "elemento": "L012",
+      "lambda_sem": 0.001502820512820512,
+      "lambda_hist": 0.001,
+      "en_plan": false
+    },
+    {
+      "elemento": "L013",
+      "lambda_sem": 0.0032769230769230675,
+      "lambda_hist": 0.0038461538461538464,
+      "en_plan": false
+    },
+    {
+      "elemento": "L014",
+      "lambda_sem": 0.0029733333333333257,
+      "lambda_hist": 0.0038461538461538464,
+      "en_plan": true
+    },
+    {
+      "elemento": "L015",
+      "lambda_sem": 0.003030256410256402,
+      "lambda_hist": 0.0038461538461538464,
+      "en_plan": false
+    },
+    {
+      "elemento": "L016",
+      "lambda_sem": 0.0015787179487179474,
+      "lambda_hist": 0.001,
+      "en_plan": false
+    },
+    {
+      "elemento": "L017",
+      "lambda_sem": 0.003219999999999991,
+      "lambda_hist": 0.0038461538461538464,
+      "en_plan": true
+    }
+  ],
+  "r2_insample": 0.7960809523809503,
+  "n_muestras": 17,
+  "nota": "Prediccion in-sample (n pequeno, datos sinteticos)."
+}
